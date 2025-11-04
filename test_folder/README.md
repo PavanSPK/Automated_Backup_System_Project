@@ -13,7 +13,7 @@ Run the backup script:
 
 Expected output:
 
-![backup](<"C:\Users\hp\Documents\bash_projects\test_folder\backup.png">)
+![backup](<"[C:\Users\hp\Documents\bash_projects\test_folder\backup.png](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/0d4945c885ce1099edd1a0369a51bebca2107929/test_folder/backup.png)">)
 
 -----------------------------------------------------------------------------------
 
