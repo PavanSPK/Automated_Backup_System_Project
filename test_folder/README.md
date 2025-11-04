@@ -22,11 +22,11 @@ Expected output:
 
 To simulate multiple days:
 
-![multie_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\multie_backup.png">)
+![multie_backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/multie_backup.png)
 
 List backups:
 
-![list_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\list_backup.png">)
+![list_backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/list_backup.png)
 
 ----------------------------------------------------------------------------------
 
@@ -46,16 +46,16 @@ Then run again:
 
 Expected output:
 
-![autodelete_old_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\autodelete_old_backup.png")
+![autodelete_old_backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/autodelete_old_backup)
 
 --------------------------------------------------------------------------------
 ## 🔁 4. Restoring From a Backup
 
 Expected:
 
-![restore_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\restore_backup.png">)
+![restore_backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/restore_backup.png)
 
-![restored_data](<"C:\Users\hp\Documents\bash_projects\test_folder\restored_data.png")
+![restored_data](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/restored_data.png)
 
 ## 🧱 5. Dry Run Mode
 
@@ -65,7 +65,7 @@ Expected:
 
 Expected:
 
-![dry_run](<""C:\Users\hp\Documents\bash_projects\test_folder\dry_run.png")
+![dry_run](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/dry_run.png)
 
 ----------------------------------------------------------------------------------
 
@@ -78,7 +78,7 @@ Try backing up a non-existing folder:
 
 Expected:
 
-![folder_not_found]("C:\Users\hp\Documents\bash_projects\test_folder\folder_not_found.png")
+![folder_not_found](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/folder_not_found.png)
 
 -------------------------------------------------------------------------------
 
