@@ -1,0 +1,125 @@
+# 🧪 Backup System Testing Guide
+
+This document demonstrates how to test all major features of **backup.sh** script.
+
+--------------------------------------------------------------------------------
+
+## 💾 1. Creating a Backup
+
+Run the backup script:
+```bash
+./backup.sh /mnt/c/Users/hp/Documents/bash_projects/testdata
+```
+
+Expected output:
+
+![backup](<"C:\Users\hp\Documents\bash_projects\test_folder\backup.png">)
+
+-----------------------------------------------------------------------------------
+
+## 🕒 2. Creating Multiple Backups Over “Days”
+
+To simulate multiple days:
+
+![multie_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\multie_backup.png">)
+
+List backups:
+
+![list_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\list_backup.png">)
+
+----------------------------------------------------------------------------------
+
+## 🧹 3. Automatic Deletion of Old Backups
+
+Edit `.backup.conf`:
+```bash
+DAILY_KEEP=7
+WEEKLY_KEEP=4
+MONTHLY_KEEP=3
+```
+
+Then run again:
+```bash
+./backup.sh /mnt/c/Users/hp/Documents/bash_projects/testdata
+```
+
+Expected output:
+
+![autodelete_old_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\autodelete_old_backup.png")
+
+--------------------------------------------------------------------------------
+## 🔁 4. Restoring From a Backup
+
+Expected:
+
+![restore_backup](<"C:\Users\hp\Documents\bash_projects\test_folder\restore_backup.png">)
+
+![restored_data](<"C:\Users\hp\Documents\bash_projects\test_folder\restored_data.png")
+
+## 🧱 5. Dry Run Mode
+
+```bash
+./backup.sh --dry-run /mnt/c/Users/hp/Documents/bash_projects/testdata
+```
+
+Expected:
+
+![dry_run](<""C:\Users\hp\Documents\bash_projects\test_folder\dry_run.png")
+
+----------------------------------------------------------------------------------
+
+## ❌ 7. Error Handling Test
+
+Try backing up a non-existing folder:
+```bash
+./backup.sh /mnt/c/Users/hp/Documents/bash_projects/folder1
+```
+
+Expected:
+
+![folder_not_found]("C:\Users\hp\Documents\bash_projects\test_folder\folder_not_found.png")
+
+-------------------------------------------------------------------------------
+
+## 📂 Folder Structure Example
+
+```
+bash_Project/
+├── backup.sh                  # Main backup automation script
+├── .backup.config               # Configuration file (optional, for retention settings)
+├── backup.log                 # Log file recording all backup activities
+│
+├── backups/                   # Stores all generated backup files
+│   ├── backup-2025-11-06-0441.tar
+│   ├── backup-2025-11-07-0441.tar
+│   └── email.txt              # Simulated email notification
+│
+├── testdata/                  # Folder with test files to back up
+│   ├── file1.txt
+│   ├── file2.txt
+│
+├── restored_data/             # Folder where restored backups are extracted
+│
+├── testfolder/                # Additional folder for testing multi-source backups
+│   ├──test.md                 # Markdown file with detailed testing examples
+
+```
+-----------------------------------------------------------------------------------
+
+## ✅ Summary of Tests
+
+| Feature | Verified | Screenshot Added |
+|----------|-----------|------------------|
+| Backup Creation | ✅ | ✅ |
+| Multiple Backups | ✅ | ✅ |
+| Deletion of Old | ✅ | ✅ |
+| Restore | ✅ | ✅ |
+| Dry Run | ✅ | ✅ |
+| Error Handling | ✅ | ✅ |
+
+------------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+**PavanSPK**  
+🔗 GitHub: [@PavanSPK](https://github.com/PavanSPK)

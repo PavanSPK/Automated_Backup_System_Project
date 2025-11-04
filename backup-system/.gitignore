@@ -1,0 +1,5 @@
+# prevent committing actual backups
+backups/
+*.tar.gz
+*.sha256
+email.txt
