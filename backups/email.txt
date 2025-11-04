@@ -58,9 +58,3 @@ Subject: Backup SUCCESS: backup-2025-11-12-0450.tar.gz
 Backup backup-2025-11-12-0450.tar.gz created successfully and verified.
 Time: Tue Nov  4 04:50:52 UTC 2025
 --------------------------------------------------
-To: spk@gmail.com
-Subject: Backup FAILED: backup-2025-11-04-0642.tar.gz
-
-Backup verification failed for backup-2025-11-04-0642.tar.gz.
-Time: Tue Nov  4 06:42:02 UTC 2025
---------------------------------------------------
