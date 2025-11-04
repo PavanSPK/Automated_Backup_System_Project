@@ -46,7 +46,7 @@ Then run again:
 
 Expected output:
 
-![autodelete_old_backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/autodelete_old_backup)
+![autodelete_old_backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/autodelete_old_backup.png)
 
 --------------------------------------------------------------------------------
 ## 🔁 4. Restoring From a Backup
