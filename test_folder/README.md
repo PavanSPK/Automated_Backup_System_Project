@@ -123,6 +123,7 @@ bash_Project/
 | Deletion of Old | ✅ | ✅ |
 | Restore | ✅ | ✅ |
 | Dry Run | ✅ | ✅ |
+| Email | ✅ | ✅ |
 | Error Handling | ✅ | ✅ |
 
 ------------------------------------------------------------------------------
