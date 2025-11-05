@@ -80,7 +80,7 @@ sha256sum -c backup.tar.gz.sha256
 Bash_Scripting_Project:Automated_Backup_System/
 ├──backup.sh               # Main backup automation script
 ├──backup.config           # Configuration file
-├── backup.log             # Log file recording all backup activities
+├──backup.log             # Log file recording all backup activities
 ├──README.md               # Markdown file with detailed project explanation
 │
 ├── test_folder/                # Additional folder for testing multi-sourcebackups
