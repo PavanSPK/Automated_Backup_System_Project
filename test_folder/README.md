@@ -1,4 +1,4 @@
-# 🧪 Backup System Testing Guide
+# Backup System Testing Guide
 
 This document demonstrates how to test all major features of **backup.sh** script.
 
