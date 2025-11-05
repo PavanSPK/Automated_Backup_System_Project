@@ -1,34 +1,116 @@
-[2025-11-03 09:48:26] Creating backup: backup-2025-11-03-0948.tar.gz
-[2025-11-03 09:48:26] ERROR Backup failed.
-[2025-11-03 09:49:10] Creating backup: backup-2025-11-03-0949.tar.gz
-[2025-11-03 09:49:10] ERROR Backup failed.
-[2025-11-03 09:49:28] Creating backup: backup-2025-11-03-0949.tar.gz
-[2025-11-03 09:49:28] ERROR Backup failed.
-[2025-11-03 09:50:12] Creating backup: backup-2025-11-03-0950.tar.gz
-[2025-11-03 09:50:12] ERROR Backup failed.
-[2025-11-03 09:54:38] Running in DRY-RUN mode. No changes will be made.
-[2025-11-03 09:54:38] Creating backup: backup-2025-11-03-0954.tar.gz
-[2025-11-03 09:54:38] Would create archive from 
-[2025-11-03 09:54:38] Cleaning old backups...
-[2025-11-03 09:54:38] Would check and remove old backups.
-[2025-11-03 09:54:38] Simulated email written to /mnt/c/Users/hp/Documents/bash_projects/backup-system/backups/email.txt
-[2025-11-03 09:54:38] INFO Script finished
-[2025-11-03 09:55:11] Creating backup: backup-2025-11-03-0955.tar.gz
-[2025-11-03 09:55:11] ERROR Backup failed.
-[2025-11-03 09:55:49] Creating backup: backup-2025-11-03-0955.tar.gz
-[2025-11-03 09:55:49] ERROR Backup failed.
-[2025-11-03 09:57:13] Creating backup: backup-2025-11-03-0957.tar.gz
-[2025-11-03 09:57:13] ERROR Backup failed.
-[2025-11-03 09:58:02] Running in DRY-RUN mode. No changes will be made.
-[2025-11-03 09:58:02] Creating backup: backup-2025-11-03-0958.tar.gz
-[2025-11-03 09:58:02] Would create archive from 
-[2025-11-03 09:58:02] Cleaning old backups...
-[2025-11-03 09:58:02] Would check and remove old backups.
-[2025-11-03 09:58:02] Simulated email written to /mnt/c/Users/hp/Documents/bash_projects/backup-system/backups/email.txt
-[2025-11-03 09:58:02] INFO Script finished
-[2025-11-03 09:58:21] Creating backup: backup-2025-11-03-0958.tar.gz
-[2025-11-03 09:58:21] ERROR Backup failed.
-[2025-11-03 09:59:15] Creating backup: backup-2025-11-03-0959.tar.gz
-[2025-11-03 09:59:15] ERROR Backup failed.
-[2025-11-03 10:01:01] Creating backup: backup-2025-11-03-1001.tar.gz
-[2025-11-03 10:01:01] ERROR Backup failed.
+[2025-11-04 04:39:50] Creating backup: backup-2025-11-04-0439.tar.gz
+[2025-11-04 04:39:50] SUCCESS Backup created: backup-2025-11-04-0439.tar.gz
+[2025-11-04 04:39:50] Checksum created: backup-2025-11-04-0439.tar.gz.sha256
+[2025-11-04 04:39:50] Verification SUCCESS: backup-2025-11-04-0439.tar.gz
+[2025-11-04 04:39:50] Cleaning old backups...
+[2025-11-04 04:39:50] No old backups to delete.
+[2025-11-04 04:39:50] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:39:50] INFO Script finished
+[2025-11-04 04:40:49] Creating backup: backup-2025-11-05-0440.tar.gz
+[2025-11-04 04:40:49] SUCCESS Backup created: backup-2025-11-05-0440.tar.gz
+[2025-11-04 04:40:49] Checksum created: backup-2025-11-05-0440.tar.gz.sha256
+[2025-11-04 04:40:49] Verification SUCCESS: backup-2025-11-05-0440.tar.gz
+[2025-11-04 04:40:49] Cleaning old backups...
+[2025-11-04 04:40:49] No old backups to delete.
+[2025-11-04 04:40:49] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:40:49] INFO Script finished
+[2025-11-04 04:41:13] Creating backup: backup-2025-11-06-0441.tar.gz
+[2025-11-04 04:41:13] SUCCESS Backup created: backup-2025-11-06-0441.tar.gz
+[2025-11-04 04:41:13] Checksum created: backup-2025-11-06-0441.tar.gz.sha256
+[2025-11-04 04:41:13] Verification SUCCESS: backup-2025-11-06-0441.tar.gz
+[2025-11-04 04:41:13] Cleaning old backups...
+[2025-11-04 04:41:13] No old backups to delete.
+[2025-11-04 04:41:13] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:41:13] INFO Script finished
+[2025-11-04 04:41:35] Creating backup: backup-2025-11-07-0441.tar.gz
+[2025-11-04 04:41:35] SUCCESS Backup created: backup-2025-11-07-0441.tar.gz
+[2025-11-04 04:41:36] Checksum created: backup-2025-11-07-0441.tar.gz.sha256
+[2025-11-04 04:41:36] Verification SUCCESS: backup-2025-11-07-0441.tar.gz
+[2025-11-04 04:41:36] Cleaning old backups...
+[2025-11-04 04:41:36] No old backups to delete.
+[2025-11-04 04:41:36] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:41:36] INFO Script finished
+[2025-11-04 04:41:55] Creating backup: backup-2025-11-08-0441.tar.gz
+[2025-11-04 04:41:55] SUCCESS Backup created: backup-2025-11-08-0441.tar.gz
+[2025-11-04 04:41:55] Checksum created: backup-2025-11-08-0441.tar.gz.sha256
+[2025-11-04 04:41:55] Verification SUCCESS: backup-2025-11-08-0441.tar.gz
+[2025-11-04 04:41:55] Cleaning old backups...
+[2025-11-04 04:41:55] No old backups to delete.
+[2025-11-04 04:41:55] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:41:55] INFO Script finished
+[2025-11-04 04:42:06] Creating backup: backup-2025-11-09-0442.tar.gz
+[2025-11-04 04:42:06] SUCCESS Backup created: backup-2025-11-09-0442.tar.gz
+[2025-11-04 04:42:06] Checksum created: backup-2025-11-09-0442.tar.gz.sha256
+[2025-11-04 04:42:06] Verification SUCCESS: backup-2025-11-09-0442.tar.gz
+[2025-11-04 04:42:06] Cleaning old backups...
+[2025-11-04 04:42:07] No old backups to delete.
+[2025-11-04 04:42:07] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:42:07] INFO Script finished
+[2025-11-04 04:42:29] Creating backup: backup-2025-11-10-0442.tar.gz
+[2025-11-04 04:42:29] SUCCESS Backup created: backup-2025-11-10-0442.tar.gz
+[2025-11-04 04:42:29] Checksum created: backup-2025-11-10-0442.tar.gz.sha256
+[2025-11-04 04:42:29] Verification SUCCESS: backup-2025-11-10-0442.tar.gz
+[2025-11-04 04:42:29] Cleaning old backups...
+[2025-11-04 04:42:29] No old backups to delete.
+[2025-11-04 04:42:29] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:42:29] INFO Script finished
+[2025-11-04 04:44:07] Creating backup: backup-2025-11-11-0444.tar.gz
+[2025-11-04 04:44:07] SUCCESS Backup created: backup-2025-11-11-0444.tar.gz
+[2025-11-04 04:44:07] Checksum created: backup-2025-11-11-0444.tar.gz.sha256
+[2025-11-04 04:44:07] Verification SUCCESS: backup-2025-11-11-0444.tar.gz
+[2025-11-04 04:44:07] Cleaning old backups...
+[2025-11-04 04:44:07] No old backups to delete.
+[2025-11-04 04:44:08] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:44:08] INFO Script finished
+[2025-11-04 04:45:01] Creating backup: backup-2025-11-12-0445.tar.gz
+[2025-11-04 04:45:01] SUCCESS Backup created: backup-2025-11-12-0445.tar.gz
+[2025-11-04 04:45:01] Checksum created: backup-2025-11-12-0445.tar.gz.sha256
+[2025-11-04 04:45:01] Verification SUCCESS: backup-2025-11-12-0445.tar.gz
+[2025-11-04 04:45:01] Cleaning old backups...
+[2025-11-04 04:45:01] No old backups to delete.
+[2025-11-04 04:45:02] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:45:02] INFO Script finished
+[2025-11-04 04:49:09] Creating backup: backup-2025-11-12-0449.tar.gz
+[2025-11-04 04:49:09] SUCCESS Backup created: backup-2025-11-12-0449.tar.gz
+[2025-11-04 04:49:09] Checksum created: backup-2025-11-12-0449.tar.gz.sha256
+[2025-11-04 04:49:09] Verification SUCCESS: backup-2025-11-12-0449.tar.gz
+[2025-11-04 04:49:09] Cleaning old backups...
+[2025-11-04 04:49:32] WARN Removing stale lock file
+[2025-11-04 04:49:32] Creating backup: backup-2025-11-12-0449.tar.gz
+[2025-11-04 04:49:32] SUCCESS Backup created: backup-2025-11-12-0449.tar.gz
+[2025-11-04 04:49:32] Checksum created: backup-2025-11-12-0449.tar.gz.sha256
+[2025-11-04 04:49:32] Verification SUCCESS: backup-2025-11-12-0449.tar.gz
+[2025-11-04 04:49:32] Cleaning old backups...
+[2025-11-04 04:50:51] WARN Removing stale lock file
+[2025-11-04 04:50:52] Creating backup: backup-2025-11-12-0450.tar.gz
+[2025-11-04 04:50:52] SUCCESS Backup created: backup-2025-11-12-0450.tar.gz
+[2025-11-04 04:50:52] Checksum created: backup-2025-11-12-0450.tar.gz.sha256
+[2025-11-04 04:50:52] Verification SUCCESS: backup-2025-11-12-0450.tar.gz
+[2025-11-04 04:50:52] Cleaning old backups...
+[2025-11-04 04:50:52] Deleted old backup: backup-2025-11-04-0439.tar.gz
+[2025-11-04 04:50:52] Deleted old backup: backup-2025-11-05-0440.tar.gz
+[2025-11-04 04:50:52] Deleted old backup: backup-2025-11-12-0445.tar.gz
+[2025-11-04 04:50:52] Deleted old backup: backup-2025-11-12-0449.tar.gz
+[2025-11-04 04:50:52] Rotation complete. Kept: 7 backups.
+[2025-11-04 04:50:52] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 04:50:52] INFO Script finished
+[2025-11-04 04:55:55] ERROR Use: --restore FILE --to DEST
+[2025-11-04 04:57:16] ERROR Backup not found: backup-2025-11-04-0439.tar.gz
+[2025-11-04 04:57:49] ERROR Backup not found: backup-2025-11-05-0440.tar.gz
+[2025-11-04 04:59:22] ERROR Backup not found: backup-2025-11-06-0441.tar.gz
+[2025-11-04 05:02:17] SUCCESS Restored backup-2025-11-06-0441.tar.gz to /mnt/c/Users/hp/Documents/bash_projects/restored_data
+[2025-11-04 05:03:21] Creating backup: backup-2025-11-12-0503.tar.gz
+[2025-11-04 05:03:21] INFO Script finished
+[2025-11-04 05:04:27] ERROR Source folder not found: /mnt/c/Users/hp/Documents/bash_projects/folder1
+[2025-11-04 06:41:49] WARN Removing stale lock file
+[2025-11-04 06:41:49] Creating backup: backup-2025-11-04-0641.tar.gz
+[2025-11-04 06:41:49] INFO Script finished
+[2025-11-04 06:42:02] Creating backup: backup-2025-11-04-0642.tar.gz
+[2025-11-04 06:42:02] SUCCESS Backup created: backup-2025-11-04-0642.tar.gz
+[2025-11-04 06:42:02] Checksum created: backup-2025-11-04-0642.tar.gz.sha256
+[2025-11-04 06:42:02] Verification SUCCESS: backup-2025-11-04-0642.tar.gz
+[2025-11-04 06:42:02] Cleaning old backups...
+[2025-11-04 06:42:02] Deleted old backup: backup-2025-11-04-0642.tar.gz
+[2025-11-04 06:42:02] Rotation complete. Kept: 7 backups.
+[2025-11-04 06:42:02] Simulated email written to: /mnt/c/Users/hp/Documents/bash_projects/backups/email.txt
+[2025-11-04 06:42:02] INFO Script finished
