@@ -67,9 +67,16 @@ Expected:
 
 ![dry_run](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/dry_run.png)
 
-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+##  7. Email
 
-## ❌ 7. Error Handling Test
+Expected:
+
+![email](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/b6d19ead1541d86128d56d98c9d3d261225f21db/test_folder/email.png)
+
+-------------------------------------------------------------------------------------------
+
+## ❌ 8. Error Handling Test
 
 Try backing up a non-existing folder:
 ```bash
