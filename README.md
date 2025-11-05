@@ -78,23 +78,10 @@ sha256sum -c backup.tar.gz.sha256
 
 ```
 Bash_Scripting_Project:Automated_Backup_System/
-│
-├── backup-system/
-│   ├──backup.sh               # Main backup automation script
-│   ├──backup.config           # Configuration file
-│   ├── backup.log             # Log file recording all backup activities
-│   ├──README.md               # Markdown file with detailed project explanation
-│
-├── backups/                   # Stores all generated backup files
-│   ├── backup-2025-11-06-0441.tar
-│   ├── backup-2025-11-07-0441.tar
-│   └── email.txt              # Simulated email notification
-│
-├── testdata/                  # Folder with test files to back up
-│   ├── file1.txt
-│   ├── file2.txt
-│
-├── restored_data/             # Folder where restored backups are extracted
+├──backup.sh               # Main backup automation script
+├──backup.config           # Configuration file
+├── backup.log             # Log file recording all backup activities
+├──README.md               # Markdown file with detailed project explanation
 │
 ├── testfolder/                # Additional folder for testing multi-sourcebackups
 │   ├──test.md                 # Markdown file with detailed testing examples
