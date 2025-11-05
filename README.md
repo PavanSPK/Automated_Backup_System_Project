@@ -84,7 +84,7 @@ Bash_Scripting_Project:Automated_Backup_System/
 ├──README.md               # Markdown file with detailed project explanation
 │
 ├── test_folder/                # Additional folder for testing multi-sourcebackups
-│   ├──test.md                 # Markdown file with detailed testing examples
+│   ├──README.md                # Markdown file with detailed testing examples with screenshots
 
 ```
 
