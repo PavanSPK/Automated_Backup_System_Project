@@ -83,7 +83,7 @@ Bash_Scripting_Project:Automated_Backup_System/
 ├── backup.log             # Log file recording all backup activities
 ├──README.md               # Markdown file with detailed project explanation
 │
-├── testfolder/                # Additional folder for testing multi-sourcebackups
+├── test_folder/                # Additional folder for testing multi-sourcebackups
 │   ├──test.md                 # Markdown file with detailed testing examples
 
 ```
