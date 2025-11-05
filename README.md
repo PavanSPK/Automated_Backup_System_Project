@@ -16,16 +16,67 @@ Manual backups are time-consuming and error-prone. This script automates the pro
 
 ### 🔧 Installation Steps
 
-1. Clone or copy the `backup.sh` script to your system.
-2. Make it executable:
-   ```bash
-   chmod +x backup.sh
-   ```
-3. (Optional) Edit the destination folder in the script:
-   ```bash
-   BACKUP_DESTINATION="/mnt/c/Users/hp/Documents/bash_projects/backups"
-   ```
+Follow these steps to set up and run the Backup Automation System:
 
+### **1️. Clone the Project**
+```bash
+git clone https://github.com/PavanSPK/Automated_Backup_System_Project.git
+cd Automated_Backup_System_Project
+```
+
+### **2️. Give Execution Permission**
+```bash
+chmod +x backup.sh
+```
+
+### **3️. (IMPORTANT) Set Backup Destination Path**
+
+You must set where backups will be stored.
+
+#### **Option A — Edit `backup.config` (recommended)**
+Open file:
+```bash
+nano backup.config
+```
+
+Set path (example WSL path to C Drive project folder):
+```
+BACKUP_DESTINATION="/mnt/c/Users/hp/Downloads/Automated_Backup_System_Project-main/backups"
+```
+
+Save → `Ctrl + O` → `Enter`  
+Exit → `Ctrl + X`
+
+---
+
+#### **Option B — Update inside `backup.sh` (if required)**
+
+Search for this line in `backup.sh`:
+```bash
+BACKUP_DESTINATION="./backups"
+```
+
+Replace with(your required path to setup backups):
+Example:
+
+```bash
+BACKUP_DESTINATION="/mnt/c/Users/hp/Downloads/Automated_Backup_System_Project-main/backups"
+```
+
+---
+
+#### ✅ Ensure backup folder exists
+```bash
+mkdir -p /mnt/c/Users/hp/Downloads/Automated_Backup_System_Project-main/backups
+```
+
+### **4️. Create Test Data Folder**
+```bash
+mkdir -p testdata
+echo "file1 test content" > testdata/file1.txt
+echo "sample file" > testdata/file2.txt
+```
+---
 
 ### ▶️ Basic Usage
 
