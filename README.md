@@ -100,7 +100,7 @@ Restore a backup:
 ./backup.sh --restore backup-2025-11-06-0441.tar --to /path/to/restore
 ```
 
-### ⚙️ All Command Options
+###  All Command Options
 
 | Option | Description |
 |--------|--------------|
@@ -201,5 +201,5 @@ Bash_Scripting_Project:Automated_Backup_System/
 ##  Author
 
 **PavanSPK**  
-🔗 GitHub: [@PavanSPK](https://github.com/PavanSPK) 
+ GitHub: [@PavanSPK](https://github.com/PavanSPK) 
 
