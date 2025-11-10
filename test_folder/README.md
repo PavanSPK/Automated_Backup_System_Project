@@ -94,7 +94,7 @@ Expected:
 ```
 bash_Project/
 ├── backup.sh                  # Main backup automation script
-├── .backup.config               # Configuration file (optional, for retention settings)
+├── backup.config              # Configuration file (optional, for retention settings)
 ├── backup.log                 # Log file recording all backup activities
 │
 ├── backups/                   # Stores all generated backup files
