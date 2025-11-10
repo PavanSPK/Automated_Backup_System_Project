@@ -195,7 +195,7 @@ rotate_backups() {
 
   declare -A keep_files
 
-  # ✅ Safely iterate with bounds check
+  #  Safely iterate with bounds check
   for ((i=0; i<${#daily_keys[@]} && i<DAILY_KEEP; i++)); do
     keep_files["${keep_daily[${daily_keys[$i]}]}"]=1
   done
