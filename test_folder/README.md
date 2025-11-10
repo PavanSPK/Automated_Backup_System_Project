@@ -4,7 +4,7 @@ This document demonstrates how to test all major features of **backup.sh** scrip
 
 --------------------------------------------------------------------------------
 
-## 💾 1. Creating a Backup
+##  1. Creating a Backup
 
 Run the backup script:
 ```bash
@@ -18,7 +18,7 @@ Expected output:
 
 -----------------------------------------------------------------------------------
 
-## 🕒 2. Creating Multiple Backups Over “Days”
+##  2. Creating Multiple Backups Over “Days”
 
 To simulate multiple days:
 
@@ -30,7 +30,7 @@ List backups:
 
 ----------------------------------------------------------------------------------
 
-## 🧹 3. Automatic Deletion of Old Backups
+##  3. Automatic Deletion of Old Backups
 
 Edit `.backup.conf`:
 ```bash
@@ -49,7 +49,7 @@ Expected output:
 ![autodelete_old_backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/autodelete_old_backup.png)
 
 --------------------------------------------------------------------------------
-## 🔁 4. Restoring From a Backup
+##  4. Restoring From a Backup
 
 Expected:
 
@@ -57,7 +57,7 @@ Expected:
 
 ![restored_data](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/restored_data.png)
 
-## 🧱 5. Dry Run Mode
+##  5. Dry Run Mode
 
 ```bash
 ./backup.sh --dry-run /mnt/c/Users/hp/Documents/bash_projects/testdata
@@ -76,7 +76,7 @@ Expected:
 
 -------------------------------------------------------------------------------------------
 
-## ❌ 7. Error Handling Test
+##  7. Error Handling Test
 
 Try backing up a non-existing folder:
 ```bash
@@ -89,7 +89,7 @@ Expected:
 
 -------------------------------------------------------------------------------
 
-## 📂 Folder Structure Example
+##  Folder Structure Example
 
 ```
 bash_Project/
@@ -114,21 +114,21 @@ bash_Project/
 ```
 -----------------------------------------------------------------------------------
 
-## ✅ Summary of Tests
+##  Summary of Tests
 
 | Feature | Verified | Screenshot Added |
 |----------|-----------|------------------|
-| Backup Creation | ✅ | ✅ |
-| Multiple Backups | ✅ | ✅ |
-| Deletion of Old | ✅ | ✅ |
-| Restore | ✅ | ✅ |
-| Dry Run | ✅ | ✅ |
-| Email | ✅ | ✅ |
-| Error Handling | ✅ | ✅ |
+| Backup Creation | Done | Done |
+| Multiple Backups | Done | Done |
+| Deletion of Old | Done | Done |
+| Restore | Done | Done |
+| Dry Run | Done | Done |
+| Email | Done | Done |
+| Error Handling | Done | Done |
 
 ------------------------------------------------------------------------------
 
-## 👨‍💻 Author
+##  Author
 
 **PavanSPK**  
-🔗 GitHub: [@PavanSPK](https://github.com/PavanSPK)
+ GitHub: [@PavanSPK](https://github.com/PavanSPK)
