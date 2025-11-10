@@ -14,7 +14,7 @@ Manual backups are time-consuming and error-prone. This script automates the pro
 
 ## B. How to Use It
 
-### 🔧 Installation Steps
+###  Installation Steps
 
 Follow these steps to set up and run the Backup Automation System:
 
