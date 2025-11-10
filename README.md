@@ -65,7 +65,7 @@ BACKUP_DESTINATION="/mnt/c/Users/hp/Downloads/Automated_Backup_System_Project-ma
 
 ---
 
-#### ✅ Ensure backup folder exists
+####  Ensure backup folder exists
 ```bash
 mkdir -p /mnt/c/Users/hp/Downloads/Automated_Backup_System_Project-main/backups
 ```
@@ -78,7 +78,7 @@ echo "sample file" > testdata/file2.txt
 ```
 ---
 
-### ▶️ Basic Usage
+###  Basic Usage
 
 Backup a folder:
 ```bash
@@ -112,20 +112,20 @@ Restore a backup:
 
 ## C. How It Works
 
-### 🔁 Rotation Algorithm
+###  Rotation Algorithm
 The script keeps a limited number of **daily, weekly, and monthly** backups based on configurable values.  
 Example:
 - Keep last **7 daily**, **4 weekly**, and **3 monthly** backups.  
 Older backups are deleted automatically.
 
-### 🔐 Checksums
+###  Checksums
 Each backup file gets a SHA256 checksum file (e.g. `backup.tar.gz.sha256`) to verify data integrity using:
 
 ```bash
 sha256sum -c backup.tar.gz.sha256
 ```
 
-## 📂 Folder Structure Example
+##  Folder Structure Example
 
 ```
 Bash_Scripting_Project:Automated_Backup_System/
@@ -198,7 +198,7 @@ Bash_Scripting_Project:Automated_Backup_System/
 
 ---------------------------------------------------------------------------
 
-## 👨‍💻 Author
+##  Author
 
 **PavanSPK**  
 🔗 GitHub: [@PavanSPK](https://github.com/PavanSPK) 
